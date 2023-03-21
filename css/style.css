@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    height: 73px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s ease-out;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.nav-list li {
+    margin: 0px 26px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.logo {
+    margin: 6px 19px;
+
+}
+
+.logo img {
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 180px;
+    cursor: pointer;
+
+}
+
+
+.right-nav {
+    width: 30%;
+    text-align: end;
+
+}
+
+#search {
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 20px;
+    width: 40%;
+
+}
+
+.btn {
+    margin: 2px 8px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 5px 5px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn-sm {
+    margin: 0 7px;
+    padding: 2px 5px;
+
+
+
+}
+
+.btn:hover {
+    color: gray;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+.first-section {
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.main-box {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+
+}
+
+.first-half {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-big {
+    font-size: 40px;
+    margin: 5px 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.text-sm {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+.second-half img {
+    width: 175px;
+    border: 2px solid white;
+    border-radius: 150px;
+
+}
+
+.sec-left {
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+    flex-direction: row-reverse;
+    height: 300px;
+    align-items: center;
+
+
+}
+
+.sec-right {
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+    height: 300px;
+    align-items: center;
+
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.random img {
+    width: 175px;
+    height: 175px;
+    border: 3px solid gray;
+    border-radius: 20px;
+
+}
+
+#contact {
+
+    background-color: #f2f2f2;
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 3px;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+
+.contact-box form {
+    width: 40%;
+}
+
+.contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-group .btn {
+    background-color: #c2c2ca;
+}
+
+
+footer {
+    color: white;
+    height: 31px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    visibility: hidden;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
